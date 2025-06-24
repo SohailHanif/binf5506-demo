@@ -1,6 +1,8 @@
 import os
 import boto3
 
+print("File upload starting")
+
 s3 = boto3.client("s3")
 bucket_name = "sohail-binf55062"
 
