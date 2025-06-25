@@ -7,10 +7,10 @@ rule hello:
     output:
         "hello.txt"
     shell:
-        "echo Hello World > hello.txt"
+        "echo Hello World > {output}"
 
 rule goodbye:
     output:
         "goodbye.txt"
     shell:
-        "echo Goodbye World > goodbye.txt"
+        "echo Goodbye World >  {output}"
