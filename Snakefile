@@ -1,3 +1,8 @@
+rule all:
+    input:
+        "hello.txt",
+        "goodbye.txt"
+
 rule hello:
     output:
         "hello.txt"
